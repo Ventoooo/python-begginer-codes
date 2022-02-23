@@ -1,0 +1,30 @@
+lista = [1,2,3,4]
+
+lista[x] = y   #= muda o valor para (y) de um conteudo na posição (x)
+
+lista.append('y') #= adiciona o valor (y) no fim da lista
+
+lista.insert(x,y) #= adiciona o valor (y) na posição (x) da lista
+
+del lista[x] #= deleta o valor na posição (x)
+lista.pop(x) #= deleta o valor na posição (x) obs: caso não haja valor deleta o ultimo elemento da lista
+lista.remove('y') #= procura na lista o elemento (y) e o deleta
+
+lista.sort() #= organiza os valores de forma crescente
+lista.sort(reverse=True) #= organiza os valores de forma decrescente
+
+###metodo para copiar uma lista:
+    listaA = [1,2,3,4]
+    listaB = A[:] ##= sem o '[:]' as duas listas ficam ligadas e mudam de acordo com a outra
+
+#### criar lista com numeros
+
+    x = list(range(0,10))
+
+max() #o maior valor da lista       #max()[]
+min() #o menor valor da lista       #min()[] caso seja uma lista composta
+
+A função ##### map(function, iterable) ##### aplica function a cada elemento do iterable e retorna um iterador.
+Para converter uma lista de strings em uma lista de inteiros, daremos int como a function para a função map() e uma
+lista de strings como o objeto iterable. Como a função map() no Python 3.x retorna um iterador, devemos usar a função
+ list() para convertê-la para a lista.

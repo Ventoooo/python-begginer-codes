@@ -1,0 +1,6 @@
+#frase = input("coloque aqui a frase que você quiser :")
+frase = 'a sopa de trigo trista'.lower().strip()
+print("a letra 'a' aparece {} vezes na frase".format(frase.count('a')))
+#print(frase.count("a"))
+print("a primeira vez que letra 'a' aparece é na casa {}".format(frase.find('a')+1))
+print("a ultima vez que a letra A aparece é na casa {}".format(frase.rfind('a')+1))

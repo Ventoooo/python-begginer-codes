@@ -282,13 +282,3 @@ while True:
         print("Programa finalizado!")
         save_data()
         break
-
-    elif way == '666':
-        print("Obrigado por tudo cara, eu te amo!\nVamo viajar quando eu ficar rico")
-        print("Sério pra compilar isso foi UM COMPLETO INFERNO por isso o 666.")
-        print('E o pior, tudo isso foi por causa de 1 única linha de gambiarra... Mas agr tá tudo certo e é isso que '
-              'importa!')
-        print("Até mais cara, bom dia, boa noite, boa tarde, bom descanço, durma bem, tenha bons sonhos e tudo mais")
-        print("Beijão!!!")
-        print("\n esse foi o meu ultimo codigo .py antes de começar a facul ent se eu n estiver falando inglês até o "
-              "fim desse ano eu peço que me encha de porrada! \n de leve pfvr.")
